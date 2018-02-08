@@ -22,8 +22,8 @@
 			<section class="wrapper">
 				<div class="inner">
 					<header class="special">
-						<h2> We're All We've Got  </h2>
-						<p style="font-size: 18px;"> Climb your way up out the struggle | Give back to your community</p>
+						<h2 class="green"> We're All We've Got  </h2>
+						<p style="font-size: 18px; text-align: left"> Enrich your community climbing your way up out the struggle or giving back to your community</p>
 					</header>
 					<div class="highlights">
 						<section>	
@@ -88,7 +88,7 @@
 		<!-- CTA -->
 			<section id="cta" class="wrapper">
 				<div class="inner">
-					<h2> Want this manifested <b> before June? </b> </h2>
+					<h2> Want this manifested <strong> before June? </strong> </h2>
 					<p style="font-size: 20px;">Help us make it happen</p>
 				</div>
 			</section>
@@ -98,7 +98,7 @@
 				<div class="inner">
 					<header class="special">
 						<h2 class="green">Join the Movement</h2>
-						<p style="font-size: 18px;"> Help us efficiently manifest positive global intiatives from the donor to the recipient from the start to the finish. </p>
+						<p style="font-size: 18px; text-align: left;"> Help us efficiently manifest positive global resource accessibility from the donor to the needy from start to finish. </p>
 					</header>
 					<div class="testimonials">
 						<section>
@@ -110,7 +110,7 @@
 									<p> Lead your own resource initiatives </p>
 								</blockquote>
 								<div class="author" >
-									<button style="text-align: center; width:100%;"> Join as a Leader </button>
+									<button style="text-align: center; width:100%;" onClick="apply('pusher')"> Join as a Leader </button>
 								</div>
 							</div>
 						</section>
@@ -124,9 +124,26 @@
 									<p>Motivate future community leaders</p>								
 								</blockquote>
 								<div class="author" >
-									<button style="text-aligpushern: center; width:100%;"> Join as a Pusher </button>
+									<button style="text-aligpushern: center; width:100%;" onClick="apply('pusher')"> Join as a Pusher </button>
 								</div>
 							</div>
+							<script>
+								function apply(n){
+									switch(n){
+										case 'pusher':
+											// redirect to typeform;
+											alert('pusher');
+											break;
+										case 'leader':
+											// redirect to typeform;
+											alert('leader');
+											break;
+										case 'source':
+											alert('source')	;break;
+										default: break;			
+									}
+								}
+							</script>
 						</section>
 						<section>
 							<div class="content">
@@ -138,7 +155,7 @@
 
 								</blockquote>
 								<div class="author" >
-									<button style="text-align: center; width:100%;"> Join as a Source </button>
+									<button style="text-align: center; width:100%;" onClick="apply('source')"> Join as a Source </button>
 								</div>
 							</div>
 						</section>
